@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Carme&family=Hind:wght@300;600&;700");
+* {
+  margin: 0;
+  font-family: "Hind", sans-serif;
+}
+body {
+  background-color: rgb(29, 29, 29);
+}
+.banner {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #cfb095 url("img/bg.jpg") center/cover no-repeat;
+  width: 100vw;
+  height: 350px;
+  margin: 0;
+}
+.banner h1 {
+  font-size: 80px;
+  max-width: 80%;
+  color: white;
+  display: flex;
+  line-height: 65px;
+}
+main {
+  margin-top: -80px;
+}
+fieldset {
+  margin: 1em auto;
+  padding: 40px;
+  border-radius: 15px;
+  border: none;
+  max-width: 80%;
+  background-color: #ffffff;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+main h1,
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+.socmed {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+.socmed i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+i:hover{
+    color: #cfb997;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  background-color: #e7e7e7;
+  border: none;
+  color: #000000;
+  padding-left: 10px;
+}
+
+input[type="radio"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn {
+  background-color: #242526;
+  cursor: pointer;
+  width: 35%;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.btn:hover {
+  background-color: #cfb997;
+  transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>icreatechs study hub</h1>
+    </div>
+    <main>
+        <!--Login Form-->
+        <div class="login-container">
+        <form action="#" method="POST">
+            <fieldset>
+                <h1>Login</h1>
+                <label for="username" id="name-label">Username:</label>
+                <input id="username" type="text" placeholder="Username" required>
+                <label for="password" id="pass-label">Password:</label>
+                <input id="password" type="password" placeholder="Password" required>
+                <p>- or - <br>Sign In using</p>
+                
+                <div class="socmed">
+                    <i class="uit uit-facebook-f"></i>
+                    <i class="uit uit-google"></i>
+                </div>
+                
+                <div class="submit-container">
+                    <input class="btn" type="submit" value="Login" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+        <!--Survey Form-->
+        <div class="survey-container">
+        <form action="#" method="POST">
+            <fieldset>
+                <h1>Survey</h1>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Name" required>
+                <label for="age">Age:</label>
+                <input type="number" placeholder="Age" required>
+
+                <label for="gender"> <b>Gender:</b></label>
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other"> Other
+                </label>
+
+                <label for="survey"> <b>Which programming languages do you know?</b>
+                <label>
+                    <input type="checkbox" value="java">Java 
+                </label>
+                <label>
+                    <input type="checkbox" value="C++">C++
+                </label>
+                <label>
+                    <input type="checkbox" value="python">Python
+                </label>
+                <label>
+                    <input type="checkbox" value="javascript">JavaScript  
+                </label>
+                <label>
+                    <input type="checkbox" value="HTML">HTML  
+                </label>
+                <label>
+                    <input type="checkbox" value="CSS">CSS  
+                </label>
+                
+                <label><b>Any comments or suggestions?</b>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                </label>
+            </label>
+            
+                <div class="submit-container">
+                    <input class="btn" type="submit" value="Submit" />
+                </div>
+            </fieldset>
+        </form>
+        </div>
+
+            <!--Contact Form-->
+        <div class="contact-container">
+        <form action="#" method="POST">
+            <fieldset>
+                <h1>Contact Us</h1>
+                <label for="name" id="name-label">Name:</label>
+                <input id="name" type="text" placeholder="Name" required>
+                <label for="email" id="email-label">Email:</label>
+                <input id="email" type="email" placeholder="Email" required>
+                <label> Message:
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>            
+                </label>
+                <div class="submit-container">
+                    <input class="btn" type="submit" value="Submit" />
+                </div>
+            </fieldset>
+        </form>
+        </div>
+
+    </main>
+</body>
+</html>
